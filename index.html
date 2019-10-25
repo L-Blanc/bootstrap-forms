@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Quiz</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+      <h1> Game of Thrones Quiz </h1>
+      <p> Do you have what it takes to rule all seven kingdoms? Test your Game of Thrones knowledge with this quiz! Link to <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">wiki</a> source!</p>
+
+            <form>
+              <div class="form-group">
+              <label class="form-control-label" for="charactername"> Who is the head of House Stark?</label>
+              <input class="form-control" type="text" name="charactername" id="charactername">
+            </div> <!--q1-->
+
+              <div class="form-group">
+                <label class="form-control-label" for="kingname"> Who sits on the Iron Throne and rules over the Seven Kingdoms?</label>
+              <input class="form-control" type="text" name="kingname" id="kingname">
+            </div>
+
+            <div class="form-group">
+  <label class="form-control-label"> Why did Jamie Lannister push Brandon Stark out of a castle window? What happened to Brandon?</label>
+              <textarea class="form-control" name="longans" id="longans">
+              </textarea></div>
+
+<div class="form-group">
+<label>Who is the Mother of Dragons?</label>
+  <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="radio" name="queen" value="cersei">Cersei Lannister</label></div>
+  <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="radio" name="queen" value="danny">Daenareys Targareyn</label></div>
+  <div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="radio" name="queen" value="marg">Margery Tyrell</label></div>
+    <div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="radio" name="queen" value="cat">Catelyn Stark</label></div>
+  </div>
+
+<div class="form-group">
+<label> What are the names of the Stark children?</label>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="checkbox" name="stark" value="bran">Brandon</label></div>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" name="stark" value="rob">Robert</label></div>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="checkbox" name="stark" value="jon">Jon</label></div>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" name="stark" value="ary">Arya</label></div>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="checkbox" name="stark" value="sans">Sansa</label></div>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="checkbox" name="stark" value="rick">Rickon</label></div>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="checkbox" name="stark" value="joff">Joffrey</label></div>
+<div class="form-check"><label class="form-check-label"><input class="form-check-input"  type="checkbox" name="stark" value="tyr">Tyrion</label></div>
+</div>
+
+<div class="form-group">
+<label for="hboyear"> What year did the HBO series premier?</label>
+<select class="form-control" name="hboyear" id="hboyear">
+<option value=1993> 1993 </option>
+<option value=2014> 2014 </option>
+<option value=2011> 2011 </option>
+<option value=2005> 2005 </option>
+<option value=2009> 2009 </option>
+<option value=2018> 2018 </option>
+</select>
+</div>
+
+<div class="form-group">
+<input class="btn btn-primary" type="submit" value="Am I Worthy?">
+<input class="btn btn-secondary" type="reset" value='Start Over'></div>
+
+
+            </form>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
